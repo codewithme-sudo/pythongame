@@ -1,4 +1,3 @@
-#import random
 import random
 
 print("*********")
@@ -17,7 +16,6 @@ moves = ["rock" , "paper" , "scissor"]
 
 keep_playing = "true"
 
-#while loop true
 while keep_playing == "true":
     
     cmove = random.choice(moves)
@@ -25,9 +23,7 @@ while keep_playing == "true":
     pmove = input("What is your move?: \n1.rock\n2.paper\n3.scissor\n")
     
     print("The computer choose ",cmove)
-    #print computer move
-    
-    #if else statements 
+    #print computer move 
     if cmove == pmove:
         print("Tie")
         
